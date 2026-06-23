@@ -112,6 +112,7 @@ The image generation process was implemented using ComfyUI and the Stable Diffus
 The prompts were encoded using CLIP text encoders and supplied to the diffusion model. The KSampler generated latent representations based on the prompts and configured sampling parameters. The latent output was decoded into an image through the VAE decoder and saved using the Save Image node.
 
  Workflow Screenshot
+ ![Workflow](Workflow.png)
  
 4. Image Generation Model
 
