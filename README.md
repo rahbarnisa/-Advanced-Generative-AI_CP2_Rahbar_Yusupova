@@ -11,18 +11,20 @@ For this project, ComfyUI was deployed locally on a Windows machine and used as 
 1.1 Book Cover
 
 Original Work: Lord of the Rings
+![Original Lord of the Rings](original_lord_rings.webp)
  
 
 1.2 DVD Cover
 
 Original Work: Star Wars
 
- 
+ ![Original Star Wars](original_star_wars.webp)
 
 1.3 Album / Vinyl Cover
 
 Original Work: Michael Jackson - Thriller
 
+![Original Michael Jackson Thriller](Original_MichaelJackson_Thriller.webp)
  
 
 2. AI-Generated Variations
@@ -51,7 +53,7 @@ messy composition, cartoon style
 
 Generated Result
  
-
+![Generated Lord of the Rings](LordRingsGenerated.png)
 
 
 2.2 AI-Generated DVD Cover
@@ -74,6 +76,7 @@ bad composition, oversaturated,
 low resolution, messy background
 
 Generated Result
+![Generated Star Wars](StarWarsGenerated.png)
  
 2.3 AI-Generated Album/Vinyl Cover
 Positive Prompt
@@ -94,7 +97,7 @@ messy composition, oversaturated, low resolution
 
 Generated Result
 
- 
+ ![Generated Album](AlbumGenerated.png)
 
 3. Workflow
 The image generation process was implemented using ComfyUI and the Stable Diffusion v1.5 model. The workflow consisted of the following nodes:
